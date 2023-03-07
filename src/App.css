@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+body {
+  background-color: #222831 !important;
+  /* background-color: #1a76ff !important; */
+  font-family: "Poppins";
+}
+.is-brand {
+  background-color: #222831 !important;
+}
+.is-brand-text {
+  color: rgb(255, 128, 0);
+}
+.this {
+  color: #00adb5;
+}
+.image-nav {
+  max-height: 4.75rem !important;
+}
+.hero-image {
+  width: 500px;
+  height: 467px;
+}
+
+.hero-main-heading {
+  font-size: 4rem !important;
+}
+
+.is-blue {
+  background-color: blue !important;
+}
+
+.is-lightblue {
+  background-color: #00adb5;
+}
+
+.subheadinEC {
+  color: rgb(255, 123, 0);
+}
+
+.rect {
+  height: 40rem;
+  width: 100%;
+  background-image: linear-gradient(black -40%, transparent);
+  margin: 3%;
+  /* text-align: center; */
+  color: white;
+}
+.rect-mobile {
+  height: 50rem;
+  width: 100%;
+  background-image: linear-gradient(black -40%, transparent);
+  margin: 3%;
+  /* text-align: center; */
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+.line {
+  width: 0.9rem;
+  height: 700px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 50px 0 70px;
+}
+
+.image-skill-size {
+  width: 60%;
+  height: 100px;
+  position: relative;
+  left: 120px;
+  top: 20rem;
+}
+
+.figma-ai-html {
+  top: 13rem;
+}
+.ps {
+  top: 21rem;
+}
+.xd {
+  top: 20rem;
+}
+.js {
+  top: 25rem;
+}
+
+.vl {
+  position: absolute;
+  border-left: 6px solid rgb(255, 255, 255);
+  /* height: 100%;
+    margin-left: 12rem ; */
+}
+
+.card-background-rounded:hover {
+  background-color: #393e46 !important;
+  border-radius: 20px !important;
+  transform: scale(0.5.125);
+}
+
+.card-background:hover {
+  background-color: #393e46 !important;
+  transform: scale(1.125);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: white !important;
+}
+
+a.navbar-item:hover,
+a.navbar-link:hover,
+div.navbar-item:hover {
+  background-color: transparent !important;
+}
